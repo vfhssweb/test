@@ -142,72 +142,69 @@
     <!-- Page Header End -->
 
 
-    <!-- Contact Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                
-                    <h1 class="display-6 mb-5">Reach Out, Make a Difference</h1>
-                    
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
-                                </div>
+    
+
+  <!-- Contact Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="display-6 mb-5">Reach Out, Make a Difference</h1>
+                <form action="contact.php" method="POST">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                <label for="name">Your Name</label>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-2 px-3 me-3">
-                                    Send Message
-                                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </button>
-                                
-                            </div>
-                            <div class="container mt-5 text-center">
-                              <a href="https://wa.me/+211929292979?text=Hello%20there!%20I%20need%20some%20assistance." class="whatsapp-btn">
-                                  <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp Icon" style="vertical-align: middle; margin-right: 10px;">
-                                  Chat with Us on WhatsApp
-                              </a>
-                          </div>
                         </div>
-                    </form>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
-                    <div class="position-relative rounded overflow-hidden h-100">
-                        <iframe class="position-relative w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15902.040239034355!2d31.5788767!3d4.8538278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x171281b8f4d2c15b%3A0x74549ee33d77711a!2sVision%20For%20Humanity%20South%20Sudan!5e0!3m2!1sen!2s!4v1702470657850!5m2!1sen!2s"
-                        frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary py-2 px-3 me-3">
+                                Send Message
+                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="container mt-5 text-center">
+                            <a href="https://wa.me/+211929292979?text=Hello%20there!%20I%20need%20some%20assistance." class="whatsapp-btn">
+                                <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp Icon" style="vertical-align: middle; margin-right: 10px;">
+                                Chat with Us on WhatsApp
+                            </a>
+                        </div>
                     </div>
+                </form>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
+                <div class="position-relative rounded overflow-hidden h-100">
+                    <iframe class="position-relative w-100 h-100"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15902.040239034355!2d31.5788767!3d4.8538278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x171281b8f4d2c15b%3A0x74549ee33d77711a!2sVision%20For%20Humanity%20South%20Sudan!5e0!3m2!1sen!2s!4v1702470657850!5m2!1sen!2s"
+                    frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
-
-  
+</div>
+<!-- Contact End -->
         
     
      
